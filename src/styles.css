@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f3ead7;
+  --color-paper-2: #e7dcc4;
+  --color-ink: #1c1612;
+  --color-ash: #6b6258;
+  --color-blood: #9b2335;
+  --color-night: #12100e;
+  --color-night-2: #221c18;
+  --color-line: #d4c6ad;
+  --font-display: "Fraunces", "Times New Roman", serif;
+  --font-body: "Literata", "Georgia", serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --radius: 0.75rem;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  html,
+  body {
+    background: var(--color-night);
+    color: var(--color-ink);
+    overflow-x: hidden;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+body {
+  font-family: var(--font-body);
+  min-height: 100dvh;
+}
+
+.prose-book p {
+  margin-top: 0.9em;
+  line-height: 1.65;
+}
+
+.prose-book h2 {
+  font-family: var(--font-display);
+  font-weight: 560;
+  font-size: 1.55rem;
+  letter-spacing: -0.02em;
+  margin-top: 1.4em;
+  margin-bottom: 0.35em;
+}
+
+.prose-book blockquote {
+  border-left: 3px solid var(--color-blood);
+  padding-left: 0.9rem;
+  margin: 1.1em 0;
+  color: var(--color-ink);
+  font-style: italic;
+}

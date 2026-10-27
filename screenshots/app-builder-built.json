@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Nötrleştirme Dairesi",
+      "hasCanvas": false,
+      "bodyTextLen": 1055,
+      "bodyTextHash": "e5e26c75f6bf35203b23534494c53b94659a75e449fa38e62d549aa00464c822",
+      "bodyTextPrefix": "SAHA DEFTERİ · 2026 Nötrleştirme Dairesi Kitap Masa Skor İÇİNDEK",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Nötrleştirme Dairesi",
+      "hasCanvas": false,
+      "bodyTextLen": 1039,
+      "bodyTextHash": "d8eefd04c9a807c733d6100168288dff6df1f16cd901211c4ff7a697c5bd86d2",
+      "bodyTextPrefix": "SAHA DEFTERİ · 2026 Nötrleştirme Dairesi İÇİNDEKİLER 01 Daire ka",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
